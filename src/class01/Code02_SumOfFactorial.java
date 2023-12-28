@@ -1,7 +1,7 @@
 package class01;
 
 public class Code02_SumOfFactorial {
-
+    //方法一
 	public static long f1(int N) {
 		long ans = 0;
 		for (int i = 1; i <= N; i++) {
@@ -10,6 +10,7 @@ public class Code02_SumOfFactorial {
 		return ans;
 	}
 
+	//方法二
 	public static long factorial(int N) {
 		long ans = 1;
 		for (int i = 1; i <= N; i++) {

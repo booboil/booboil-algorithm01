@@ -14,27 +14,27 @@ public class Code01_PrintBinary {
 //		int num = 4;
 //
 //		print(num);
-//		
+////
 //		
 //		int test = 1123123;
 //		print(test);
 //		print(test<<1);
 //		print(test<<2);
 //		print(test<<8);
-//		
-//		
+
+
 //		int a = Integer.MAX_VALUE;
 //		System.out.println(a);
 
 //		print(-1);
-//		int a = Integer.MIN_VALUE;
+//		int a = Integer.MIN_VALUE ;
 //		print(a);
 
 //		int b = 123823138;
 //		int c = ~b;
 //		print(b);
 //		print(c);
-
+//
 //		print(-5);
 
 //		System.out.println(Integer.MIN_VALUE);
@@ -49,14 +49,14 @@ public class Code01_PrintBinary {
 //		print(a & b);
 //		print(a ^ b);
 
-//		int a = Integer.MIN_VALUE;
-//		print(a);
-//		print(a >> 1);
-//		print(a >>> 1);
-//		
+		int a = Integer.MIN_VALUE;
+		print(a);
+		print(a >> 1);
+		print(a >>> 1);
+
 //		int c = Integer.MIN_VALUE;
 //		int d = -c ;
-//		
+//
 //		print(c);
 //		print(d);
 
