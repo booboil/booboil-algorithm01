@@ -2,6 +2,9 @@ package class01;
 
 import java.util.Arrays;
 
+/**
+ * 冒泡排序算法 （第一位跟第二位交换，小在前，第二位跟第三位交换，以此类推）
+ */
 public class Code05_BubbleSort {
 
 	public static void bubbleSort(int[] arr) {
@@ -23,6 +26,8 @@ public class Code05_BubbleSort {
 		arr[i] = arr[j];
 		arr[j] = tmp;
 	}
+
+
 
 	// for test
 	public static void comparator(int[] arr) {

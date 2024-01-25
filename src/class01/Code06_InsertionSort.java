@@ -2,6 +2,9 @@ package class01;
 
 import java.util.Arrays;
 
+/**
+ *  插入排序算法 （当第二位数比第一位数小，则交换，当第三位数比前两位数小，则交换，以此类推）
+ */
 public class Code06_InsertionSort {
 
 	public static void insertionSort(int[] arr) {
